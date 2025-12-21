@@ -1,9 +1,9 @@
-🚀 Custom Reverse Proxy Load Balancer
+ Custom Reverse Proxy Load Balancer
 
 A lightweight, Node.js-based reverse proxy and load balancing system designed to distribute incoming requests across multiple backend servers using a round-robin algorithm.
 This project simulates a real production architecture with three load balancers and two backend servers, demonstrating concepts like scalability, fault tolerance, and traffic routing.
 
-🔧 Architecture Overview
+ Architecture Overview
 
 This system contains:
 
@@ -37,7 +37,7 @@ Alternating server responses
 
 Failover behavior
 
-📦 Tech Stack
+ Tech Stack
 
 Node.js
 
@@ -47,7 +47,7 @@ Axios
 
 PowerShell (for testing)
 
-🧠 What This Project Demonstrates
+ What This Project Demonstrates
 
 ✔ Custom reverse proxy implementation
 ✔ Load balancing using round-robin
@@ -81,7 +81,7 @@ Autoscaling
 ├── test.ps1     # Testing script
 └── README.md
 
-▶️ How to Run
+ How to Run
 Start Backend Servers:
 node backend1.js
 node backend2.js
@@ -102,7 +102,7 @@ You will see responses like:
 [LB1] → Response from Backend Server 1
 ...
 
-⭐ Future Enhancements
+ Future Enhancements
 
 Health check + automatic server removal
 
